@@ -3,19 +3,19 @@
 size = 12
 
 [font.bold]
-family = "Ark Pixel 16px M latin"
+family = "Fairfax"
 style = "Bold"
 
 [font.bold_italic]
-family = "Ark Pixel 16px M latin"
+family = "Kirsch"
 style = "Bold Italic"
 
 [font.italic]
-family = "Ark Pixel 16px latin"
+family = "Kirsch"
 style = "Italic"
 
 [font.normal]
-family = "Ark Pixel 16px M latin"
+family = "Fairfax"
 style = "Regular"
 
 [font.offset]

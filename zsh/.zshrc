@@ -64,3 +64,15 @@ antigen apply
 #    tmux attach -t default || tmux new
 #  fi
 #fi
+
+export PATH="$PATH:$HOME/.cargo/bin"
+
+clear && fastfetch
+
+
+# Following line was automatically added by arttime installer
+export MANPATH=/home/ciara/.local/share/man:$MANPATH
+
+# Following line was automatically added by arttime installer
+export PATH=/home/ciara/.local/bin:$PATH
+export PATH="/opt/zig-0.16.0:$PATH"
