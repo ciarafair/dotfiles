@@ -2,7 +2,7 @@
 /* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
-    font:   "Fairfax 12";
+    font:   "Fairfax 10";
 
     background: #282828;
     foreground: #C5C8C6;
