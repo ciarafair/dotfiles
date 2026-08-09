@@ -11,9 +11,14 @@ source $HOME/.dotfiles/aliases.zsh
 setopt autocd
 
 # Export paths
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 export PATH=/Users/ciara/.local/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
 export XDG_CONFIG_HOME="$HOME/.config/zsh"
+export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/"
+export XDG_DATA_DIRS="/home/ciara/.config/local/share/flatpak/exports/share:$XDG_DATA_DIRS"
+
 
 #   /_\  _ _| |_(_)__ _ ___ _ _
 #  / _ \| ' \  _| / _` / -_) ' \
